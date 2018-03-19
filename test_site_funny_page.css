@@ -1,0 +1,84 @@
+body {
+  font-family: 'Limelight', sans-serif;
+  color: rgba(215, 219, 14, 0.9);
+  background-color: rgba(10, 6, 6, 1);
+  margin: 0;
+}
+
+nav {
+  border-bottom: 2px solid rgba(0,0,0, 0.4);
+  color
+  /* box-shadow: 0px 5px 10px 0px rgba(0,0,0, 0.5) ; */
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.nav-container > section {
+  margin: 100px auto;
+}
+
+.nav-container a {
+color: rgba(215, 219, 14, 0.9);
+}
+
+
+.pics {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.pics img {
+  height: 200px;
+  width: 50%
+}
+
+.profile-picture {
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  padding-bottom: 5px;
+}
+
+.pics span {
+  display: block;
+  font-style: italic;
+}
+
+.pics {
+  color: rgb(187, 235, 176);
+  font-weight: bolder;
+  text-decoration: double;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.detail-container > section {
+  padding: 25px;
+  padding-bottom: 100px;
+
+  background-color: rgb(227, 201, 28);
+  color: black;
+
+  border-right: 10px double black;
+}
+
+.detail-container > section:last-child {
+  border-right: 0;
+}
+
+.contact-links a {
+  color: black;
+}
+
+.contact-links a:hover {
+  color: white;
+}
