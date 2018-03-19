@@ -1,0 +1,56 @@
+/* Navigation bar styling: Will be uniform throughout */
+body {
+  font-family: 'Limelight', sans-serif;
+  color: rgba(215, 219, 14, 0.9);
+  background-color: rgba(10, 6, 6, 1);
+  margin: 0;
+}
+
+nav {
+  border-bottom: 2px solid rgba(0,0,0, 0.4);
+  /* box-shadow: 0px 5px 10px 0px rgba(0,0,0, 0.5) ; */
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+/* END OF NAV BAR PORTION */
+/* PORTION THAT LISTS BLOCKED OUT SECTION TO PREVIOUS PROJECTS */
+.site-container > section {
+  margin: 100px auto;
+}
+
+.overview-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.overview-container > section {
+  padding: 25px;
+  padding-bottom: 100px;
+
+  background-color: rgb(227, 201, 28);
+  color: black;
+
+  border-bottom: 20px double black;
+}
+
+.overview-container > section:last-child {
+  border-right: 0;
+}
+
+.overview-container a {
+  color: black;
+}
+
+.overview-container a:hover {
+  color: blue;
+}
+
+nav a {
+color: rgba(215, 219, 14, 0.9);
+}
